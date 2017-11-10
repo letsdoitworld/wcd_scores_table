@@ -69,7 +69,7 @@ class App extends Component {
             <NavbarBrand>World Cleanup Day Scores</NavbarBrand>
           </Container>
         </Navbar>
-          <Container>
+          <Container className="content">
             {(() => {
               if (_.isEmpty(this.state.data)) {
                 return (
