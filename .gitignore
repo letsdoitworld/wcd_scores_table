@@ -12,8 +12,10 @@
 # WebStorm
 /.idea
 
-# export data
-/src/export/*
+# data
+/src/export/accounts.json
+/src/export/teams.json
+/src/export/trashpoints.json
 
 # misc
 .DS_Store
