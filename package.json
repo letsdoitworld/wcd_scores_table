@@ -1,0 +1,29 @@
+{
+  "name": "wcd_teams_list",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "geocoder": "^0.2.3",
+    "lodash": "^4.17.4",
+    "node-geocoder": "^3.21.0",
+    "react": "^16.1.0",
+    "react-bootstrap-table": "^4.1.1",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "4.8.0"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "static": "npm run build && static ./build --port 8085",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
